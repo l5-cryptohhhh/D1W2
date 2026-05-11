@@ -165,3 +165,19 @@ console.log(`n è pari e divisibile per 3: ${divisibileEPari}`);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let latoA = 10;
+let latoB = 15;
+let latoC = 10;
+
+const perimetro = latoA + latoB + latoC;
+
+console.log(`il perimetro è ${perimetro}`)
+
+if (latoA === latoB && latoB === latoC){
+    console.log('il triangolo è equilatero');
+} else if (latoA === latoB || latoB === latoC || latoC === latoA) {
+    console.log('il triangolo è isoscele');
+} else {
+    console.log('il triangolo è scaleno');
+}
+ 
