@@ -28,8 +28,8 @@ console.log(`Ciao mi chiamo ${nome} ${cognome}`);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const a = 10;
-const b = 3;
+let a = 10;
+let b = 3;
 
 console.log(`${a} + ${b} = ${a + b}`);
 console.log(`${a} - ${b} = ${a - b}`);
@@ -51,7 +51,7 @@ console.log(`${a} ** ${b} = ${a ** b}`);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 const annoNascita = 2004;
-const annoCorrente = 2026;
+let annoCorrente = 2026;
 
 console.log(`Ad oggi ho ${annoCorrente - annoNascita} anni`);
 console.log(`Tra 10 anni avrò ${annoCorrente - annoNascita + 10} anni `)
@@ -66,7 +66,7 @@ console.log(`Cinque anni fa avevo ${annoCorrente - annoNascita - 5} anni `)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const etaOggi = 22;
+let etaOggi = 22;
 const maggiorEta = etaOggi >= 18;
 
 console.log(`Eta: ${etaOggi} - Maggiorenne: ${maggiorEta}`);
@@ -81,11 +81,11 @@ console.log(`Eta: ${etaOggi} - Maggiorenne: ${maggiorEta}`);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 const name = "Manuel";
-const anni = 22;
-const utenteAttivo = true;
+let anni = 22;
+let utenteAttivo = true;
 // "typeof null" ritorna "object".
-const datiNull = null;
-const valoreUnd = undefined; 
+let datiNull = null;
+let valoreUnd = undefined; 
 
 console.log(`nome è di tipo: ${typeof name}`);
 console.log(`anni è di tipo: ${typeof anni}`);
@@ -103,8 +103,8 @@ console.log(`valoreMancante è di tipo: ${typeof valoreUnd}`);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const numberNumber = 5;
-const numberString = '5';
+let numberNumber = 5;
+let numberString = '5';
 
 console.log(numberNumber == numberString);  /*== valuta il tipo O il valore*/
 console.log(numberNumber === numberString); /*=== valuta il tipo E il valore, consigliata*/
@@ -146,10 +146,10 @@ console.log('10' * '2');
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const n = 6
-const pari = (n % 2 === 0);
-const divisibilePer3 = (n % 3 === 0);
-const divisibileEPari = (pari && divisibilePer3);
+let n = 6
+let pari = (n % 2 === 0);
+let divisibilePer3 = (n % 3 === 0);
+let divisibileEPari = (pari && divisibilePer3);
 
 console.log(`n è pari: ${pari}`);
 console.log(`n è divisibile per 3: ${divisibilePer3}`);
