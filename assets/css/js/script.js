@@ -173,7 +173,7 @@ const perimetro = latoA + latoB + latoC;
 
 console.log(`il perimetro è ${perimetro}`)
 
-if (latoA === latoB && latoB === latoC){
+if (latoA === latoB && latoB === latoC) {
     console.log('il triangolo è equilatero');
 } else if (latoA === latoB || latoB === latoC || latoC === latoA) {
     console.log('il triangolo è isoscele');
